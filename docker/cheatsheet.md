@@ -53,3 +53,11 @@ docker port container_name or container_ip
 docker volume ls 
 docker volume inspect volume_name
 ```
+
+## Daily usage commands
+
+Run an interactive shell inside specific container_name
+```
+$ docker exec -it container_name bash
+```
+
