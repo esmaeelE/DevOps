@@ -16,6 +16,10 @@ https://hub.docker.com/r/atlassian/jira-software
 
 find docker latest image version
 
+## Some good project to work on docker
+
+* https://github.com/docker/awesome-compose
+
 ## Download docker images 
 
 ## Find good alternative
