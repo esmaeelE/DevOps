@@ -26,4 +26,9 @@ $ podman run hello-world:latest
 ```
 Time is wrong, why?
 
-## 
+## Set registry and Iran mirros.
+```
+```
+
+
+
