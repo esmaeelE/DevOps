@@ -1,11 +1,8 @@
 # Podman containerization
 
-```
-```
-
-
 ## Install
 
+Just run below commands
 ```
 $ sudo apt install podman podman-compose
 ```
