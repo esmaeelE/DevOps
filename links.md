@@ -1,4 +1,8 @@
 # Links
+# Automation
+* [DevOps Guy](https://www.youtube.com/@RaghavPal)
+
+## 
 
 * [Saeed](https://bostandoust.com/)
 * [arash hatami](https://arash-hatami.ir/)
