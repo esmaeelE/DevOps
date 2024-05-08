@@ -27,6 +27,13 @@ Time is wrong, why?
 ```
 ```
 
+# add new registery
+```
+$ cat /etc/containers/registries.conf
+unqualified-search-registries = ["docker.io"]
+```
+
+
 
 ## change default storage location
 podman save containers images and volume in $HOME of running user. we can change it.
