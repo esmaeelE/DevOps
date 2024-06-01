@@ -212,3 +212,18 @@ $ cat ~/.config/containers/storage.conf
       use_deferred_removal = ""
       xfs_nospace_max_retries = ""
 ```
+
+
+# Systemd Service auto run on startup
+```
+Automate with systemd service
+
+podman generate systemd --new --name deploy_mariadb_server_1 > mariadb.service
+mkdir -p ~/.config/systemd/user/
+cp mariadb.service ~/.config/systemd/user/
+
+systemctl --user daemon-reload
+systemctl --user enable mariadb.service
+systemctl --user start mariadb.service
+systemctl --user status mariadb.service 
+```
