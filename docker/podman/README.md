@@ -41,7 +41,7 @@ for example I placed them in `/var/container/`
 
 ```
 $ sudo mkdir -p /var/container
-$ sudo chowd -R user /var/container/
+$ sudo chown -R user /var/container/
 
 $ cat ~/.config/containers/storage.conf
 [storage]
