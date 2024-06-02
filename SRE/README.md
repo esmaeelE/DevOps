@@ -1,4 +1,3 @@
 # README
 
-* [google SRE books](https://sre.google/books/)
-* 
+* [Google SRE Books](https://sre.google/books/)
