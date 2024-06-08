@@ -5,7 +5,10 @@
 
 ## Docker gui
 
-* portainer
+### portainer as docker UI
+
+* https://github.com/portainer/portainer-compose/blob/master/docker-stack.yml
+* https://earthly.dev/blog/portainer-for-docker-container-management/
 
 ## projects
 
