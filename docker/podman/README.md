@@ -5,6 +5,9 @@
 Just run below commands
 ```
 $ sudo apt install podman podman-compose
+$ mkdir -p ~/.config/containers/
+$ cat ~/.config/containers/registries.conf
+unqualified-search-registries = ["docker.io"]
 ```
 
 ## Test
