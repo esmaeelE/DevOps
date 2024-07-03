@@ -29,20 +29,57 @@ docker ps -a
 docker stats
 ```
 
-### containers
+### container
 ```
 docker container ls
 docker container inspect container_name or container_id
+docker stop
+docker start
+docker restart
+docker ps
+docker ps -a
+docker logs
+docker run
+docker exec
+docker pause
+docker wait
+docker export
+docker rename
+# Clean UP
+docker rm
+docker rmi
+docker kill
+docker prune
 ```
 
-### images 
+### registry
+```
+docker search
+docker pull
+docker push
+docker tag
+docker login
+docker logout
+```
+
+### image
 ```
 docker history image_name
 docker image ls
+docker image rm
+docker image build
+docker image commit
+docker import
 ```
+
 ### network
 ```
 docker network ls
+docker network create
+docker network rm
+docker network connect
+docker network disconnect
+docker network inspect
 docker network network_name or network_id
 # port, get port mapping for containers
 docker port container_name or container_ip
@@ -52,6 +89,21 @@ docker port container_name or container_ip
 ```
 docker volume ls 
 docker volume inspect volume_name
+docker volume create
+docker volume rm
+docker kill 
+```
+
+### Service
+```
+docker service ls
+docker service ps
+docker service crate
+docker service update
+docker service scale
+docker service scale
+docker service logs
+docker stack services
 ```
 
 ## Daily usage commands
