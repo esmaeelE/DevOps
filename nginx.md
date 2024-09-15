@@ -1,5 +1,5 @@
 # nginx
 
 * loadbalancer, for flask
-* revers proxy
-* other usage
+* reverse proxy
+* other usage(webserver, caching)
