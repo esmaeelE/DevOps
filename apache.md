@@ -14,7 +14,7 @@ Apache file server with basic auth
         AuthName "Restricted Content"
         AuthUserFile /etc/apache2/.htpasswd
         Require valid-user
-        Options Indexes
+        Options Indexes # mandatory to access and list files
     </Directory>
 </VirtualHost>
 ```
