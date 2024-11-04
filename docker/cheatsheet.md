@@ -21,6 +21,7 @@ docker version
 
 docker system info 
 docker system df
+docker system prune
 
 docker ps
 docker ps -a
