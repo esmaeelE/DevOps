@@ -2,7 +2,7 @@
 
 ## k3s as a simple Kubernetes distribution 
 
-###Install On ubuntu
+### Install On ubuntu
 
 ### Official installation method
 ```
