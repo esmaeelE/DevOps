@@ -2,9 +2,9 @@
 
 ## k3s as a simple Kubernetes distribution 
 
-# Install On ubuntu
+###Install On ubuntu
 
-# Official installation method
+### Official installation method
 ```
 curl -sfL https://get.k3s.io | sh -
 ```
@@ -22,8 +22,9 @@ chmod 600 "$KUBECONFIG"
 * [Evan Carroll answer on DevOps](https://devops.stackexchange.com/a/16109/42890)
 * [baeldung](https://www.baeldung.com/ops/k3s-getting-started)
 
+# Kubernetes cheatsheet
 
-# Run
+## Run
 ```
 kubectl get nodes
 kubectl get pods
