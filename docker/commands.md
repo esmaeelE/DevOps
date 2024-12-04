@@ -9,6 +9,7 @@ or on create container
 
 `docker run -v jiraVolume:/var/atlassian/application-data/jira --restart=always --name="jira2" -d -p 8090:8080 atlassian/jira-software`
 
+```
 --restart=always not at last
-
+```
 
