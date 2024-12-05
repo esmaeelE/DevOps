@@ -29,6 +29,22 @@ chmod 600 "$KUBECONFIG"
 kubectl get nodes
 kubectl get pods
 kubectl get pods --all-namespaces
+kubectl get pods -o wide
 ```
+
+```
+kubectl get services
+kubectl get pods
+kubectl get deploy
+```
+## Service Type
+* CluterIP
+* node Port
+* LoadBallancer
+
+TODO
+* Install simple kubernetes cluster with two node Ubuntu 24.04
+* Run 3 flask, load balancer
+* 
 
 
