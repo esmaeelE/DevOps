@@ -1,7 +1,10 @@
+# Grafana dashborad reset password
 
+```
+sudo grafana-cli admin reset-admin-password admin
+```
 
-
-
+---
 
 
 # Secure prometheus with basic auth and ssl
