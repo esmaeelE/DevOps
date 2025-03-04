@@ -22,3 +22,11 @@ also we can detach docker compose with
 
 
 WARNING: Image for service web was built because it did not already exist. To rebuild this image you must use `docker-compose build` or `docker-compose up --build`.
+
+---
+
+## Instead of using compose use docker build command
+
+```
+$ docker build -t flask_app 
+```
