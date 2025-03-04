@@ -1,0 +1,11 @@
+---
+services:
+  frontend:
+    container_name: frontend
+    # image: ...
+    build: 
+      context: ./frontend
+      dockerfile: ../dockerfile
+    ports:
+      - "8000:3000"
+
