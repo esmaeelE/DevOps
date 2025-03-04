@@ -5,7 +5,7 @@
 
 ## YARN is better
 
-### first of all create baseic project with yarn
+### first of all create basic project with yarn
 
 After install npm with [nvm](https://github.com/nvm-sh/nvm) run below command to create boilerplate
 ```
@@ -28,10 +28,11 @@ docker compose up -d
 
 
 ---
-
+```
 yarn install 
 docker build -t app .
 yarn run build
+```
 
 this create dist directory we can serve with nginx
 
